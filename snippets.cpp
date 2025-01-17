@@ -17,3 +17,5 @@ priority_queue<int,vector<int>,decltype(compare)> pq;
 
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<>> pq;
 
+//decltype is used to express the the type of a expression during compile time so during compile time the 
+// priority queue sets its heap structre by decltype
